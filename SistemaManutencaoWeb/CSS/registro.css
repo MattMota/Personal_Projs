@@ -1,0 +1,130 @@
+body {
+	background-color:rgb(80, 80, 80);
+}
+h2 {
+	background-color: rgb(80, 80, 80);
+	color: rgb(245, 245, 245);
+	font-size: 25px;
+	position: relative;
+	text-align: center;
+	top: -10px;
+}
+hr {
+	color: rgb(245, 245, 245);
+	position: relative;
+}
+label {
+	color: rgb(245, 245, 245);
+}
+select {
+	background-color:#FFF;
+	border-radius: 5px;
+	cursor: pointer;
+	height: 30px;
+	text-indent: 0.01px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-appearance: none;
+}
+textarea {
+	background-color:#FFF;
+	border-radius: 5px;
+	color: rgb(87,82,76);
+	font-size: 17px;
+	margin-top: 11px;
+	resize: none;
+	width: 100%;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+.btn {
+	background-color: rgb(245,245,245);
+	color: rgb(80, 80, 80);
+	margin-top: 37.5px;
+}
+.col-sm-12 {
+	font-size: 18px;
+	text-align: center;
+}
+.foto{
+	color: rgb(245, 245, 245);
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 32.5px;
+}
+.foto>div {
+	margin-bottom: 12px;
+}
+.sel {
+	-moz-border-radius: 5px !important;
+}
+.titulo {
+	color: rgb(245, 245, 245);
+}
+#descr {
+	color: rgb(87,82,76);
+	height: 100px;
+}
+#enviar{
+	cursor: pointer;
+	font-weight: normal;
+	margin-top: 20px;
+	transition: color 0.3s ease;
+}
+#enviar:hover {
+	color: rgb(50,50,50);
+}
+#imagem {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+}
+#loca {
+	background-color: #FFF;
+	color: rgb(87,82,76);
+	height: 30px;
+}
+#local {
+	top: 15px;
+}
+#ocorrencia {
+	height: 30px;
+	margin-top: -20px;
+}
+#thumb {
+	cursor: pointer;
+	width: 80px;
+	height: auto;
+	filter: invert(96.078431%);
+	transition: 0.3s filter ease, 0.3s -webkit-filter ease;
+	-moz-transition: 0.3s -moz-filter ease;
+	-moz-transition: 0.3s filter ease;
+	-ms-transition: 0.3s -ms-filter ease;
+	-o-transition: 0.3s -o-filter ease;
+	-webkit-transition: 0.3s -webkit-filter ease;
+}
+#thumb:hover {	
+	filter: invert(19.607843%);
+}
+#tipo {
+	color: rgb(87,82,76);
+	font-size: 17px;
+	margin-top: 11px;
+	width: 100%;
+}
+::placeholder {
+	color: rgb(87,82,76);
+	opacity: 1;
+}
+::-moz-placeholder {
+	color: rgb(87,82,76);
+    opacity: 1;
+}
+::-ms-input-placeholder { /* Microsoft Edge */
+	color: rgb(87,82,76);
+    opacity: 1;
+}
+::-webkit-input-placeholder {
+	color: rgb(87,82,76);
+    opacity: 1;
+}

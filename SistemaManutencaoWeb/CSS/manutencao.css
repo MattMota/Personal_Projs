@@ -1,0 +1,146 @@
+@media handheld{
+	a>img {
+		/*border-radius: 5vw;
+		height: auto;
+		max-height: 30vw; 
+		max-width: 70vw;*/
+		
+	}
+}
+@media screen{
+	a>img {
+		/*border-radius: 5px;
+		height: 100%;
+		width: 100%;*/
+
+		border-radius: 5px;
+		border: 2px solid gray;
+		max-height: 70px;
+	}
+}
+a {
+	border-radius: 5px;
+	display: inline-block;
+	width: auto;
+	height: auto;
+}
+a>img {
+	-webkit-transition: 0.3s -webkit-filter ease;
+	-moz-transition: 0.3s -moz-filter ease;
+	-moz-transition: 0.3s filter ease;
+	-ms-transition: 0.3s -ms-filter ease;
+	-o-transition: 0.3s -o-filter ease;
+	transition: 0.3s filter ease, 0.3s -webkit-filter ease;
+}
+a>img:hover {
+	filter: brightness(50%);
+}
+body {
+	background-color: rgb(80, 80, 80);
+	color: rgb(80, 80, 80);
+	font-size: 15px;
+}
+button {
+    background-color: rgb(80, 80, 80);
+    border: 0px solid rgba(0, 0, 0, 0.1);
+	color: rgb(245, 245, 245);
+    display: block;
+    height: 2.5em;
+    text-align:left;
+    width: 14em;
+}
+h2 {
+	background-color: rgb(80, 80, 80);
+	color: rgb(245, 245, 245);
+	font-size: 25px;
+	position: relative;
+	text-align: center;
+	top: 20px;
+}
+hr {
+	color: rgb(245, 245, 245);
+	position: relative;
+	top: 30px;
+}
+input {
+	position: relative;
+	right: 25px;
+	bottom: 2px;
+	vertical-align: top;
+}
+li {
+	display: block;
+	position: relative;
+}
+nav {
+	background-color: rgb(80, 80, 80);
+	margin-top: -30px;
+}
+ul {
+	display: none;
+	list-style-type: none;
+	position: relative;
+}
+.checkocor{
+	left: 1px;
+	top: 2px;
+}
+.descr {
+	word-wrap: break-word;
+}
+.col-sm-12{
+	margin-top: 30px;
+}
+.texto_ocorrencia{
+	word-break: break-all;
+}
+.foto{
+	/*position: absolute;
+	right: 0;
+	display: inline-block;
+	max-width: 20%;
+	height: 100px;*/
+	position: relative block;
+	float: right;
+}
+.ocorrencia {
+	bottom: 1px;
+	display: inline-block;
+	margin-left: -20px;
+	position: relative;
+	width: 100%;
+}
+.seta {
+	bottom: 1px;
+	filter: invert(96.078431%);
+	height: auto;
+	position: relative;
+	transition: all 0.4s;
+	width: 12.5px;
+}
+.tipoocor {
+	bottom: 6px;
+	margin-top: 1000px;
+	position: relative;
+}
+
+.virado {
+	transform: rotate(180deg);
+}
+#chamados {
+	color: rgb(245, 245, 245);
+	margin-top: 130px;
+}
+#config {
+	color: rgb(255, 100, 100);
+	background-color: rgb(80, 80, 80);
+	height: 30px;
+	position: absolute;
+	right: 10px;
+	top: 75px;
+	visibility: hidden;
+	width: auto;
+}
+#mostrarocortitulo {
+	font-size: 20px;
+}
